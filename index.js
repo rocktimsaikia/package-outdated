@@ -2,7 +2,7 @@
 const readPackages = require('read-packages');
 const readLatestVersion = require('latest-version');
 const compareVersion = require('compare-versions');
-const isEmpty = require('./is-empty');
+const isEmpty = require('lodash.isempty');
 
 module.exports = async options => {
 	try {

@@ -1,6 +1,5 @@
 const test = require('ava');
 const readOutdated = require('..');
-const isEmpty = require('../is-empty');
 
 process.chdir(__dirname);
 
@@ -30,10 +29,4 @@ test('with option - preservePrefix set to true', async t => {
 		}
 	};
 	t.deepEqual(await readOutdated({preservePrefix: true}), expected);
-});
-
-test('check for empty objects', t => {
-	t.truthy(isEmpty({}));
-	t.false(isEmpty({length: 0}));
-	t.false(isEmpty({foo: 'bar'}));
 });
