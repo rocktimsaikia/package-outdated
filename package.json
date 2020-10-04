@@ -1,6 +1,6 @@
 {
 	"name": "package-outdated",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Returns the outdated packages of a package.json file",
 	"keywords": [
 		"unicorn",
