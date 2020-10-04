@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"node-encoder": "^1.0.2",
+		"read-packages": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "^2.11.1",
+		"xo": "^0.33.1"
+	}
+}
