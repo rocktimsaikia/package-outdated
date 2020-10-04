@@ -33,15 +33,15 @@ Returns the outdated packages of a package.json file.
 
 ##### dir
 
-Type: string
-Default: process.cwd()
+Type: `string`<br>
+Default: `process.cwd()`
 
 Current working directory.
 
 ##### preservePrefix
 
-Type: boolean
-Default: false
+Type: `boolean`<br>
+Default: `false`
 
 Preserves the semver `prefix(^*~)` of the current version.
 
